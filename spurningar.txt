@@ -1,0 +1,3 @@
+1.Afhverju er getElementById() fljótleglegasta aðferðin?
+
+getElementByldId aster because call direct to the JavaScript engine.jQuery  normalizes DOM manipulation in a way that works consistently in every major browser.
