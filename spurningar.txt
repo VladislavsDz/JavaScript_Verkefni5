@@ -5,3 +5,7 @@ getElementByldId aster because call direct to the JavaScript engine.jQuery  norm
 2.Hvað er málið með auða hnúta (e. whitespace nodes) og DOM tréið?
 
 The backbone of an HTML document is tags.According to the Document Object Model (DOM), every HTML tag is an object. Nested tags are “children” of the enclosing one. The text inside a tag is an object as well.
+
+3.Hvað er static og live NodeList, hver er munurinn á NodeList og HTMLCollection?
+
+NodeList is static, where  changes in the DOM not affect the content of the collection.HTMLCollection is a live and ordered collection is automatically updated when the underlying document is changed.
