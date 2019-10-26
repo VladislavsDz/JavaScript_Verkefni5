@@ -1,3 +1,7 @@
 1.Afhverju er getElementById() fljótleglegasta aðferðin?
 
 getElementByldId aster because call direct to the JavaScript engine.jQuery  normalizes DOM manipulation in a way that works consistently in every major browser.
+
+2.Hvað er málið með auða hnúta (e. whitespace nodes) og DOM tréið?
+
+The backbone of an HTML document is tags.According to the Document Object Model (DOM), every HTML tag is an object. Nested tags are “children” of the enclosing one. The text inside a tag is an object as well.
