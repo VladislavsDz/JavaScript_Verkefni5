@@ -22,3 +22,8 @@ NodeList is static, where  changes in the DOM not affect the content of the coll
 </script>
 
 It will give you MDN link and if you press right click and open new window it will open MDN web docs moz://a. If you try to poen just with the left click nothing happen.
+
+5.Af þremur leiðum til að binda event þá er AddEventListener() nýjust en afhverju er hún
+betri en hinar?
+
+addEventListener() works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called.
