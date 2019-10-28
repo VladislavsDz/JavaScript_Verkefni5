@@ -27,3 +27,7 @@ It will give you MDN link and if you press right click and open new window it wi
 betri en hinar?
 
 addEventListener() works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called.
+
+6.Hver er munurinn á true og false í AddEventListener?
+
+true and false in addEventListener is Boolean that specifies whether the event needs to be captured or not one of the following values false = Register the event handler for the bubbling phase.
